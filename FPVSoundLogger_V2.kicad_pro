@@ -531,7 +531,25 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(217, 20, 172)",
+      "+5V": "rgb(255, 61, 22)",
+      "GND": "rgb(17, 17, 186)",
+      "I2S_SCK": "rgb(119, 220, 31)",
+      "I2S_SD": "rgb(119, 220, 31)",
+      "I2S_WS": "rgb(119, 220, 31)",
+      "SDIO_CLK": "rgb(231, 205, 53)",
+      "SDIO_CMD": "rgb(231, 205, 53)",
+      "SDIO_DATA_0": "rgb(231, 205, 53)",
+      "SDIO_DATA_1": "rgb(231, 205, 53)",
+      "SDIO_DATA_2": "rgb(231, 205, 53)",
+      "SDIO_DATA_3": "rgb(231, 205, 53)",
+      "U0RXD": "rgb(55, 232, 27)",
+      "U0TXD": "rgb(55, 232, 27)",
+      "USB_D+": "rgb(41, 224, 226)",
+      "USB_D-": "rgb(41, 224, 226)",
+      "VBUS": "rgb(194, 24, 20)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -571,10 +589,10 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": "\\t",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -602,22 +620,28 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -629,7 +653,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -713,12 +737,6 @@
           "group_by": false,
           "label": "Attrition Qty",
           "name": "Attrition Qty",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
           "show": false
         },
         {

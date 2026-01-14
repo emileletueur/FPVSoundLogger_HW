@@ -5,15 +5,15 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "high_contrast_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 1.0,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.6299999952316284,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 1.0
+      "zones": 0.9599999785423279
     },
     "selection_filter": {
       "dimensions": true,
@@ -33,7 +33,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
