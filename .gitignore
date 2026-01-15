@@ -1,0 +1,28 @@
+# =========================
+# KiCad - fichiers temporaires / backups
+# =========================
+*-backups/
+*.bak
+*.tmp
+*.log
+
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+.fp-info-cache
+
+# =========================
+# Fichiers générés / outputs
+# =========================
+/gerbers/
+/outputs/
+*.zip
+
+# =========================
+# Système / éditeurs
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
