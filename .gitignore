@@ -1,5 +1,5 @@
 # =========================
-# KiCad - fichiers temporaires / backups
+# KiCad - temporary files / backups
 # =========================
 *-backups/
 *.bak
@@ -13,14 +13,14 @@
 .fp-info-cache
 
 # =========================
-# Fichiers générés / outputs
+# Generated files / outputs
 # =========================
 /gerbers/
 /outputs/
 *.zip
 
 # =========================
-# Système / éditeurs
+# System / Editor
 # =========================
 .DS_Store
 Thumbs.db
