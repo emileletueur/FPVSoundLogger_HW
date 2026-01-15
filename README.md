@@ -9,7 +9,12 @@ This the Hardware part of [FPVSoundLogger](https://github.com/SebGalina/FPVSound
 - **EDA Software**: KiCad 9.x  
 - **Type**: PCB (number of layers, dimensions)  
 - **Status**: In progress / Prototype / Validated  
-- **License**: CERN-OHL / MIT / Proprietary  
+
+## 🔐 Licenses
+
+- ⚙️🔓 Hardware: CERN-OHL-S-2.0  
+- 💻🔁 Software: GPL-3.0-only  
+- 📘✍️ Documentation: CC-BY-4.0
 
 ---
 
