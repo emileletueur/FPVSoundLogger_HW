@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FPVSoundLogger_HW")(type "KiCad")(uri "/home/sgalina/perso/electronic/FPVSoundLogger_HW")(options "")(descr ""))
+)
